@@ -13,7 +13,6 @@ from scraper.detail import get_post_detail
 from scraper.parser import parse_property
 
 
-
 # Logging
 os.makedirs("logs", exist_ok=True)
 

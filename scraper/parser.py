@@ -250,9 +250,6 @@ def parse_property(json_data):
                 )
 
 
-
-                # اطلاعات پایه
-
                 if widget_type == "GROUP_INFO_ROW":
 
 
@@ -288,10 +285,6 @@ def parse_property(json_data):
                             result["rooms"] = value
 
 
-
-
-
-                # قیمت و طبقه
 
 
                 elif widget_type == "UNEXPANDABLE_ROW":
@@ -335,7 +328,6 @@ def parse_property(json_data):
 
 
 
-                # امکانات
 
 
                 elif widget_type in [
@@ -377,7 +369,6 @@ def parse_property(json_data):
 
 
 
-                # توضیحات
 
 
                 elif widget_type == "DESCRIPTION_ROW":
@@ -390,8 +381,6 @@ def parse_property(json_data):
 
 
 
-
-            # MAP Section
 
 
             if section_name == "MAP":

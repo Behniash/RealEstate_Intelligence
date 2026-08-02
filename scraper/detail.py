@@ -24,11 +24,9 @@ def get_post_detail(token: str, session: requests.Session = None, retries: int =
         session = requests.Session()
 
 
-
     for attempt in range(1, retries + 1):
 
         try:
-
             response = session.get(url, timeout=30)
 
             response.raise_for_status()
@@ -36,7 +34,6 @@ def get_post_detail(token: str, session: requests.Session = None, retries: int =
             data = response.json()
 
             return data
-
 
 
         except requests.exceptions.Timeout:

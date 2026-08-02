@@ -1,0 +1,6 @@
+requests
+pandas
+tqdm
+numpy
+scikit-learn
+scipy

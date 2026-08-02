@@ -8,9 +8,7 @@ import os
 
 from scraper.config import SEARCH_URL
 
-
 logger = logging.getLogger(__name__)
-
 
 OUTPUT_PATH = "data/processed/houses.csv"
 

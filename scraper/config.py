@@ -7,13 +7,13 @@ TARGET_COUNT_PER_CITY = 5000
 MAX_WORKERS = 20
 
 CITIES = {
-    # "tehran": "1",
-    # "karaj": "2",
-    # "mashhad": "3",
-    # "isfahan": "4",
-    # "tabriz": "5",
-    # "shiraz": "6",
-    # "ahvaz": "7",
+    "tehran": "1",
+    "karaj": "2",
+    "mashhad": "3",
+    "isfahan": "4",
+    "tabriz": "5",
+    "shiraz": "6",
+    "ahvaz": "7",
     "qom": "8",
     "hamadan": "14",
     "arak": "15",
@@ -34,5 +34,4 @@ CITIES = {
     "behshahr": "832",
     "babol": "664",
     "babolsar": "710"
-
 }
